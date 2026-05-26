@@ -39,5 +39,9 @@ function receberPorcentagem(evento) {
         }
     })
     
+
+    if (evento.target.value !== "") {
    porcentagem = parseFloat(evento.target.value) / 100
+} else {
+    porcentagem = 0
 }
